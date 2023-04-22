@@ -4,7 +4,7 @@ import { useVideoTexture } from '@react-three/drei'
 
 export function Pared_Video() {
   //const texture1 = useVideoTexture("Videos/musica.mp4");
-  const texture1 = useVideoTexture("https://www.youtube.com/watch?v=eQMcIGVc8N0&ab_channel=CristianHenao");
+  const texture1 = useVideoTexture("Videos/musica.mp4");
   const paredRef = useRef(null)
 
   useEffect(() => {
